@@ -1,0 +1,28 @@
+﻿// See https://aka.ms/new-console-template for more information
+using Tyuiu.DewjaterikowaAA.Sprint5.Task1.V10.Lib;
+int startvalue = -5;
+int stopvalue = 5;
+DataService ds = new DataService();
+Console.Title = "Спринт #5 | Выполнила: Девятерикова А.А. | ИИПб-25-1";
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* Спринт #5                                                               *");
+Console.WriteLine("* Тема: Класс File. Запись набора данных в текстовый файл                 *");
+Console.WriteLine("* Задание #1                                                              *");
+Console.WriteLine("* Вариант #10                                                             *");
+Console.WriteLine("* Выполнил: Девятерикова А. А. | ИИПб-25-1                                *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* УСЛОВИЕ:                                                                *");
+Console.WriteLine("* Написать программу, которая производит табулирование функции на         *");
+Console.WriteLine("* заданном диапазоне [-5;5] с шагом 1 и сохраняет результат в текстовый   *");
+Console.WriteLine("* файл.                                                                   *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("startValue = " + startvalue);
+Console.WriteLine("stopValue = " + stopvalue);
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+Console.WriteLine("***************************************************************************");
+string res = ds.SaveToFileTextData(startvalue, stopvalue);
+Console.WriteLine("Файл: " + res);
+Console.WriteLine("Создан!");

@@ -2,7 +2,7 @@
 using Tyuiu.DewjaterikowaAA.Sprint5.Task0.V7.Lib;
 DataService ds = new DataService();
 int x = 4;
-Console.Title = "Спринт #5 | Выполнилa: Буянова В. И. | СМАРТб-24-1";
+Console.Title = "Спринт #5 | Выполнилa: Девятерикова А. А. | ИИПб-25-1";
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* Спринт #5                                                               *");
 Console.WriteLine("* Тема: Класс File. Запись данных в текстовый файл                        *");
